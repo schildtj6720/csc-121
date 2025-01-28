@@ -38,12 +38,10 @@ def cost_calculation():
     
     return loop_question
 
-loop_question = 'Yes'
+loop_question = input('Would you like to run again? Enter Yes or No: ')
 
 while loop_question == 'Yes':
     cost_calculation()
     loop_question = cost_calculation()
 else:
     print('Thank you!')
-
-

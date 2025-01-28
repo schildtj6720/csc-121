@@ -5,9 +5,7 @@
 
 # a function is made to recieve the amount of items a user has and to calculate the overall costs
 # the results are displayed and the user is asked if they would like to run the program again
-# loop_question is assigned a value of 'Yes' to begin the program
-# the cost_calculation function runs and changes the value of loop_question
-# the program ends with a "Thank you!" if the value is set to 'No'
+# the program ends with a "Thank you!" if the loop_question input value is set to 'No'
 
 
 def cost_calculation():

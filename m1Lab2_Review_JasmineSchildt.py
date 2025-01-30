@@ -20,7 +20,12 @@ while more_routes == 'y':
     route_num_list.append(route_num) 
     
     distance = float(input(f'Enter route {route_num} distance: '))
+    while distance == 0 or distance < 0:
+        distance = float(input(f'Invalid value! Enter again: '))
+   
     speed = float(input(f'Enter route speed {route_num} distance: '))
+    while speed == 0 or speed < 0:
+        speed = float(input(f'Invalid value! Enter again: '))
     
     time_calculated = (distance / speed) * 60
     time_list.append(time_calculated)
